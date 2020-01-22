@@ -196,11 +196,11 @@ if ( ! function_exists('img'))
 			{
 				if ($index_page === TRUE)
 				{
-					$img .= ' src="'.get_instance()->config->site_url($v).'"';
+					$img .= ' src="<?php echo base_url();?>/Plantilla/'.get_instance()->config->site_url($v).'"';
 				}
 				else
 				{
-					$img .= ' src="'.get_instance()->config->base_url($v).'"';
+					$img .= ' src="<?php echo base_url();?>/Plantilla/'.get_instance()->config->base_url($v).'"';
 				}
 			}
 			else

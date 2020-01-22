@@ -12,7 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div id='conteiner'>
 	
 
-<h1>pagina en CodeIgniter!</h1>
+<h1>pagina en CodeIgniter!fff</h1>
 </div>
 
 </body>
